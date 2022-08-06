@@ -51,10 +51,7 @@ await Promise.all([
       const num = (Math.floor(Math.random() * x) + 1);
       return num;
     },
-    /*getRand : () => {
-      const num = (Math.floor(Math.random() * 5) + 1);
-      return num;
-    },*/
+    
     showNo : (x) => {
       console.log(`WINNING NUMBER IS ${x}`)
     },
